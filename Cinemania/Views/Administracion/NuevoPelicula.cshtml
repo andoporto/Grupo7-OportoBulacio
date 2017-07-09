@@ -1,0 +1,70 @@
+﻿@model CapaNegocioDatos.Peliculas
+
+@{
+    Layout = "/Views/Shared/_LayoutAdministracion.cshtml";
+}
+
+<div class="container">
+    @*using (Html.BeginForm("/NuevoPelicula", "Administracion", new { enctype = "multipart/form-data", @class = "text-danger" }))*@
+
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+
+            <!-- CABECERA -->
+            <h2 class="text-center">Nuevo</h2>
+
+            <!-- INPUT NOMBRE -->
+            <div class="form-group">
+                <label for="Nombre">Nombre</label>
+                @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "text-danger" })
+
+            </div>
+
+            <!-- INPUT DESCRIPCION -->
+            <div class="form-group">
+                <label for="Descripcion">Descripción: </label>
+                @Html.EditorFor(model => model.Descripcion, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "text-danger" })
+            </div>
+
+            <!-- INPUT CALIFICACION -->
+            <div class="form-group">
+                <label for="Calificacion">Calificación: </label>
+                @Html.DropDownList("IdCalificacion", null, "Selecione Clasificación", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IdCalificacion, "", new { @class = "text-danger" })
+            </div>
+
+            <!-- INPUT GENERO -->
+            <div class="form-group">
+                <label for="Genero">Genero: </label>
+                @Html.DropDownList("IdGenero", null, "Selecione genero", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IdGenero, "", new { @class = "text-danger" })
+            </div>
+
+            <!-- INPUT IMAGEN -->
+            <div class="form-group">
+                <label for="Imagen">Imagen: </label>
+                @Html.TextBoxFor(model => model.Imagen, new { Type = "file" })
+                @Html.ValidationMessageFor(model => model.Imagen, "", new { @class = "text-danger" })
+            </div>
+
+
+            <!-- INPUT DURACION -->
+            <div class="form-group">
+                <label for="Duracion">Duración: </label>
+                @Html.EditorFor(model => model.Duracion, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Duracion, "", new { @class = "text-danger" })
+            </div>
+
+            <!-- BOTON GUARDAR -->
+            <div class="text-center">
+                <input type="submit" class="btn btn-success" value="Guardar" />
+
+                <!-- LINK SALIR -->
+                <a href="./Peliculas" class="btn btn-default">Cancelar</a>
+            </div>
+        </div>}
+</div>

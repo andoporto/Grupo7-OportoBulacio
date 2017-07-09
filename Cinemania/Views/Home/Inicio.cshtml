@@ -1,0 +1,23 @@
+﻿@model List<CapaNegocioDatos.Peliculas>
+
+@{
+    Layout = "~/Views/Shared/_LayoutInicio.cshtml";
+}
+
+<div class="container">
+    <h2 class="text-center">Peliculas</h2><br>
+    @foreach (CapaNegocioDatos.Peliculas p in Model)
+    {
+        <div class="col-sm6 col-md-3">
+            <div class="thumbnail">
+                <img src="/Imagenes/@p.Imagen" class="img-rounded" />
+                <div class="caption">
+                    <h4>@p.Nombre</h4>
+                    <p>@p.Generos.Nombre</p>
+                    <p>@p.Calificaciones.Nombre</p>
+                    <a href="./Peliculas/Reserva?IdPelicula=@p.IdPelicula" class="center-block btn btn-success"><span class="glyphicon glyphicon-shopping-cart"></span> COMPRAR ENTRADA</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

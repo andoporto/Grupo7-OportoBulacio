@@ -1,0 +1,100 @@
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\ApplicationInsights.config
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\csc.exe
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\System.Collections.Immutable.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\System.Reflection.Metadata.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\vbc.exe
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\VBCSCompiler.exe
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\roslyn\VBCSCompiler.exe.config
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Cinemania.dll.config
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Cinemania.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Cinemania.pdb
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\CapaNegocioDatos.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.Agent.Intercept.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.DependencyCollector.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.PerfCounterCollector.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.ServerTelemetryChannel.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.Web.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.WindowsServer.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.ApplicationInsights.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.Web.Infrastructure.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Helpers.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Mvc.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Razor.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Webpages.Deployment.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Webpages.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Webpages.Razor.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\EntityFramework.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\CapaNegocioDatos.pdb
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.DependencyCollector.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.ServerTelemetryChannel.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.Web.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.AI.WindowsServer.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.ApplicationInsights.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Razor.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Webpages.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Webpages.Deployment.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Webpages.Razor.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Helpers.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\System.Web.Mvc.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\bin\EntityFramework.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\obj\Debug\Cinemania.csprojResolveAssemblyReference.cache
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\obj\Debug\Cinemania.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\Cinemania\obj\Debug\Cinemania.pdb
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\ApplicationInsights.config
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\csc.exe
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\System.Collections.Immutable.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\System.Reflection.Metadata.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\vbc.exe
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\VBCSCompiler.exe
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\roslyn\VBCSCompiler.exe.config
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Cinemania.dll.config
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Cinemania.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Cinemania.pdb
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\CapaNegocioDatos.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.DependencyCollector.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.Web.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.WindowsServer.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.ApplicationInsights.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.Web.Infrastructure.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Helpers.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Mvc.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Razor.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Webpages.Deployment.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Webpages.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Webpages.Razor.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\EntityFramework.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\CapaNegocioDatos.pdb
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.DependencyCollector.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.Web.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.AI.WindowsServer.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.ApplicationInsights.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Razor.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Webpages.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Webpages.Deployment.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Webpages.Razor.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Helpers.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\System.Web.Mvc.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\bin\EntityFramework.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\obj\Debug\Cinemania.csprojResolveAssemblyReference.cache
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\obj\Debug\Cinemania.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\Cinemania\obj\Debug\Cinemania.pdb

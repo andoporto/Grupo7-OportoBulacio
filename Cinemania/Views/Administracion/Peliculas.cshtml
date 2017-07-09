@@ -1,0 +1,47 @@
+﻿@model List<CapaNegocioDatos.Peliculas>
+
+@{
+    Layout = "/Views/Shared/_LayoutAdministracion.cshtml";
+}
+
+<div class="container">
+    <h2 class="text-center">Peliculas</h2>
+    <!-- LINK VOLVER -->
+    <div class="btn-group">
+        <a href="./Inicio" class="btn btn-danger"><span class="glyphicon glyphicon-arrow-left"></span> Volver</a>
+    </div>
+    <!-- LINK NUEVO -->
+    <div class="btn-group">
+        <a href="./NuevoPelicula" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Imagen</th>
+                <th>Genero</th>
+                <th>Duración</th>
+                <th class="text-center">Operación 1</th>
+                <th class="text-center">Operación 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CapaNegocioDatos.Peliculas p in Model)
+            {
+                <tr>
+                    <td>@p.IdPelicula</td>
+                    <td>@p.Nombre</td>
+                    <td>@p.Descripcion</td>
+                    <td><img src="/imagenes/@p.Imagen" width="130" height="90" /></td>
+                    <td>@p.Generos</td>
+                    <td>@p.Duracion</td>
+                    <td class="text-center"><a href="./EditarPelicula?IdPelicula=@p.IdPelicula" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Editar</a></td>
+                    <td class="text-center"><a href="./BorrarPelicula?IdPelicula=@p.IdPelicula" class="btn btn-info"><span class="glyphicon glyphicon-removel"></span> Borrar</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

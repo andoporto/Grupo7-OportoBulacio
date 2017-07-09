@@ -1,0 +1,49 @@
+﻿@model List<CapaNegocioDatos.Carteleras>
+
+@{
+    Layout = "/Views/Shared/_LayoutAdministracion.cshtml";
+}
+
+<div class="container">
+
+    <h2 class="text-center">Administracion de carteleras</h2>
+
+    <!-- LINK VOLVER -->
+    <div class="btn-group">
+        <a href="./Inicio" class="btn btn-danger"><span class="glyphicon glyphicon-arrow-left"></span> Volver</a>
+    </div>
+
+    <!-- LINK NUEVO -->
+    <div class="btn-group">
+        <a href="./NuevoCartelera" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Película</th>
+                <th>Hora inicio</th>
+                <th>Fecha inicio</th>
+                <th>Operación 1</th>
+                <th>Operación 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CapaNegocioDatos.Carteleras c in Model)
+            {
+                <tr>
+                    <td>@c.IdSede</td>
+                    <td>@c.Peliculas.Nombre</td>
+                    <td>@c.HoraInicio</td>
+                    <td>@c.FechaInicio</td>
+                    <td class="text-center"><a href="./EditarCartelera?IdCartelera=@c.IdCartelera" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Editar</a></td>
+                    <td class="text-center"><a href="./BorrarCartelera?IdCartelera=@c.IdCartelera" class="btn btn-info"><span class="glyphicon glyphicon-removel"></span> Borrar</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="~/Scripts/Fecha.js"></script>
+<script src="~/Scripts/Horario.js"></script>

@@ -1,0 +1,31 @@
+﻿@model List<CapaNegocioDatos.Reservas>
+
+@{
+    Layout = "/Views/Shared/_LayoutAdministracion.cshtml";
+}
+
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Sede</th>
+                <th>Nombre película</th>
+                <th>Versión</th>
+                <th class="text-center">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CapaNegocioDatos.Reservas r in Model)
+            {
+                <tr>
+                    <td>@r.IdReserva</td>
+                    <td>@r.Sedes.Nombre</td>
+                    <td>@r.Peliculas.Nombre</td>
+                    <td>@r.Versiones.Nombre</td>
+                    <td>@r.Sedes.PrecioGeneral</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

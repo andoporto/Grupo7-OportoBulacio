@@ -1,0 +1,105 @@
+﻿@model CapaNegocioDatos.Carteleras
+
+@{
+    Layout = "/Views/Shared/_LayoutAdministracion.cshtml";
+}
+
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+
+            <!-- CABECERA -->
+            <h2 class="text-center">Nueva cartelera</h2>
+
+            <!-- INPUT ID OCULTO -->
+            @Html.TextBoxFor(m => m.IdCartelera, new { type = "hidden" })
+
+            <!-- INPUT NOMBRE -->
+            <div class="form-group">
+                <label for="Sede">Sede</label>
+                @Html.DropDownList("IdSede", null, "Selecione Sede", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IdSede, "", new { @class = "text-danger" })
+
+            </div>
+
+            <!-- INPUT DESCRIPCION -->
+            <div class="form-group">
+                <label for="Sede">Pelicula</label>
+
+                @Html.DropDownList("IdPelicula", null, "Selecione Pelicula", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IdPelicula, "", new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.EditorFor(model => model.HoraInicio, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.HoraInicio, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="lunes">Lunes</label>
+                @Html.CheckBox("lunes", true)
+
+                <label for="martes">Martes</label>
+                @Html.CheckBox("martes", true)
+
+                <label for="miercoles">Miercoles</label>
+                @Html.CheckBox("miercoles", true)
+
+                <label for="jueves">Jueves</label>
+                @Html.CheckBox("jueves", true)
+
+                <label for="viernes">Viernes</label>
+                @Html.CheckBox("viernes", true)
+
+                <label for="sabado">Sabado</label>
+                @Html.CheckBox("sabado", true)
+
+                <label for="domingo">Domingo</label>
+                @Html.CheckBox("domingo", true)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.FechaFin, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.FechaFin, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FechaFin, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.FechaInicio, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.FechaInicio, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FechaInicio, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- INPUT DURACION -->
+            <div class="form-group">
+                <label for="sala">Numero de sala</label>
+                @Html.EditorFor(model => model.NumeroSala, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NumeroSala, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                <label for="version">Version</label>
+                @Html.DropDownList("IdVersion", null, "Selecione version", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.IdVersion, "", new { @class = "text-danger" })
+
+            </div>
+            <!-- BOTON GUARDAR -->
+            <div class="text-center">
+                <input type="submit" class="btn btn-success" value="Guardar" />
+
+                <!-- LINK SALIR -->
+                <a href="./Carteleras" class="btn btn-default">Cancelar</a>
+            </div>
+        </div>
+    }
+</div>
+
+<link href="~/Content/jquery.timepicker.css" rel="stylesheet" />
+<script src="~/Scripts/jquery.timepicker.js"></script>
+<script src="~/Scripts/Fecha.js"></script>
+<script src="~/Scripts/Horario.js"></script>

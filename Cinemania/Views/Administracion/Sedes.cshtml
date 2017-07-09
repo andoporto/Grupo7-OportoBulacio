@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = "/Views/Shared/_LayoutAdministracion.cshtml";
+}
+
+<div class="container">
+    <h2 class="text-center">Sedes</h2>
+    <!-- LINK VOLVER -->
+    <div class="btn-group">
+        <a href="./Inicio" class="btn btn-danger"><span class="glyphicon glyphicon-arrow-left"></span> Volver</a>
+    </div>
+    <!-- LINK NUEVO -->
+    <div class="btn-group">
+        <a href="./NuevoSede" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Nuevo</a>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Dirección</th>
+                <th>Precio Entrada</th>
+                <th>Operación 1</th>
+                <th>Operación 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CapaNegocioDatos.Sedes s in Model)
+            {
+                <tr>
+                    <td>@s.IdSede</td>
+                    <td>@s.Nombre</td>
+                    <td>@s.Direccion</td>
+                    <td>@s.PrecioGeneral</td>
+                    <td class="text-center"><a href="./EditarSede?IdSede=@s.IdSede" class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Editar</a></td>
+                    <td class="text-center"><a href="./BorrarSede?IdSede=@s.IdSede" class="btn btn-info"><span class="glyphicon glyphicon-removel"></span> Borrar</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

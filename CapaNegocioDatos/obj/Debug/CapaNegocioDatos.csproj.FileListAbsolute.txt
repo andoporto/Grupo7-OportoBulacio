@@ -1,0 +1,18 @@
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\bin\Debug\CapaNegocioDatos.dll.config
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\bin\Debug\CapaNegocioDatos.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\bin\Debug\CapaNegocioDatos.pdb
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\bin\Debug\EntityFramework.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\bin\Debug\EntityFramework.SqlServer.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\bin\Debug\EntityFramework.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\bin\Debug\EntityFramework.SqlServer.xml
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\obj\Debug\CapaNegocioDatos.dll
+d:\users\cristian\documents\visual studio 2015\Projects\TPFinalV2\TPFinalV2\CapaNegocioDatos\obj\Debug\CapaNegocioDatos.pdb
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\bin\Debug\CapaNegocioDatos.dll.config
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\bin\Debug\CapaNegocioDatos.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\bin\Debug\CapaNegocioDatos.pdb
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\bin\Debug\EntityFramework.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\bin\Debug\EntityFramework.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\obj\Debug\CapaNegocioDatos.dll
+C:\Prog web 3 2017\Grupo7 OportoBulacio\CapaNegocioDatos\obj\Debug\CapaNegocioDatos.pdb

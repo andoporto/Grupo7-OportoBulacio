@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutInicio.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <h1 class="center-align">¡Reserva realizada!</h1>
+    </div>
+
+    <div class="row">
+        <span>
+            El Total a pagar es de $@ViewBag.Total
+        </span>
+    </div>
+
+    <div class="row">
+        <span>
+            Recuerda que la reserva estará vigente hasta 1hs antes de la función. Además deberas confirmarla en el cine seleccionado.
+        </span>
+
+        <div class="btn-group">
+            <a href="./Home/Inicio" class="btn btn-danger"><span class="glyphicon glyphicon-arrow-left"></span> Volver</a>
+        </div>
+    </div>
+</div>

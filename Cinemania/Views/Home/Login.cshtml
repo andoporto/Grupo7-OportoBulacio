@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutInicio.cshtml";
+}
+
+<div class="container">
+
+    <div class="panel-body">
+
+        <form action="./ValidarLogin" method="POST">
+            <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                <!-- CABECERA -->
+                <h2 class="text-center">Iniciar Sesion</h2>
+
+                <!-- INPUT EMAIL -->
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input id="nomUsuario" type="text" name="Email" class="form-control input-lg" placeholder="Nombre de Usuario" />
+                </div>
+
+                <!-- INPUT CONTRASEÑA -->
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input name="passUsuario" type="password" class="form-control input-lg" placeholder="Contraseña" />
+                </div>
+                <br>
+
+                <!-- BOTON INICIAR SESION -->
+                <div class="form-group">
+                    <input type="submit" class="btn btn-lg btn-primary btn-block" value="INGRESAR" />
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>    <!-- /container -->
+
+<!-- Mensaje de validación -->
+<span class="text-center">@TempData["Validacion"]</span>
+
